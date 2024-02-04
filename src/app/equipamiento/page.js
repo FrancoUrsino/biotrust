@@ -4,7 +4,7 @@ import React from 'react'
 function page() {
   return (
     <>
-    <header className='h-1/4 w-full bg-gradient-to-r from-[#002D4E] to-[#002e4e08]'>
+    <header className='h-1/4 w-full bg-gradient-to-r from-[#27B2C4] to-[#002e4e08]'>
     <p>hi</p>
     <p>hi</p>
     <p>hi</p>
@@ -22,7 +22,7 @@ function page() {
     <p>hi</p>
     </header>
     <main>
-      <Sidebar/>
+    <Sidebar/>
     </main>
     </>
   )
