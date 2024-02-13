@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Sidebar from '@/components/Sidebar'
 import React from 'react'
 
@@ -24,6 +25,9 @@ function page() {
     <main>
       <Sidebar/>
     </main>
+    <div className='bg-gradient-to-b from-[#289DAC] to-[#0E3A5D] to-80% text-white'>
+    <Footer/>
+    </div>
     </>
   )
 }

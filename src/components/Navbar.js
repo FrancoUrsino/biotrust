@@ -24,7 +24,7 @@ function Navbar() {
   }, [])
 
   return (
-    <nav className={nav ? 'fixed top-0 w-full bg-sky-800/20 max-h-96 backdrop-blur-lg rounded-b-3xl z-50' : 'fixed bg-[#002d4e] top-0 rounded-b-3xl w-full max-h-96 z-50'}>
+    <nav className={nav ? 'fixed top-0 w-full bg-sky-800/20 max-h-96 backdrop-blur-lg rounded-b-3xl z-50' : 'fixed bg-gradient-to-b from-[#289DAC] to-[#0E3A5D] to-80% top-0 rounded-b-3xl w-full max-h-96 z-50'}>
 
       <div className="justify-between px-1 mx-auto lg:w-11/12 md:items-center md:flex md:px-8">
         <div>
@@ -60,17 +60,12 @@ function Navbar() {
                 </Link>
               </li>
               <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white md:hover:bg-transparent">
-                <Link href="/nuestros-clientes" onClick={() => setNavbar(!navbar)}>
+                <Link href="/clientes" onClick={() => setNavbar(!navbar)}>
                   CLIENTES
                 </Link>
               </li>
-              {/* <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white md:hover:bg-transparent">
-                <Link href="/equipamientos" onClick={() => setNavbar(!navbar)}>
-                  EQUIPAMIENTOS
-                </Link>
-              </li> */}
               <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white md:hover:bg-transparent">
-                <Link href="/contacto" onClick={() => setNavbar(!navbar)}>
+                <Link href="/contactanos" onClick={() => setNavbar(!navbar)}>
                   CONTÁCTANOS
                 </Link>
               </li>
