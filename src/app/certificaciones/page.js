@@ -2,60 +2,94 @@ import Footer from '@/components/Footer'
 import Sidebar from '@/components/Sidebar'
 import React from 'react'
 import '../globals.scss'
+import Image from 'next/image'
+import notes from '../../../public/img/notes.svg'
+import person from '../../../public/img/person.svg'
+import computer from '../../../public/img/computer.svg'
+import arrow from '../../../public/img/arrow.svg'
 
 function page() {
   return (
     <main className='w-full absolute bg-[#f0f0f5]'>
       <section>
         <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>certificaciones</h1>
-        <h6 className='text-center text-[#002D4E] md:text-xl lg:text-2xl'>Biotrust se basa en las siguientes normas:</h6>
+        <h6 className='text-center text-[#002D4E] mt-10 w-10/12 mx-auto md:text-xl lg:text-2xl'>Para realizar los protocolos y procedimientos Biotrust se basa en las siguientes normas</h6>
         <Sidebar />
-        <div className='grid grid-cols-1 grid-rows-3 gap-5 lg:grid-rows-1 lg:grid-cols-3 w-10/12 lg:w-9/12 2xl:w-7/12 mx-auto justify-center items-center justify-items-center my-20'>
-          <article className='w-[270px] md:w-[280px] lg:w-[270px] xl:w-[320px] 2xl:w-[400px] h-[270px] md:h-[300px] xl:h-[320px] 2xl:h-[400px] bg-[#F0F0F5] border-[#27B2C4] border-4 rounded-xl shadow-xl flex flex-col 2xl:justify-center'>
-            <h2 className='w-10/12 lg:w-9/12 mx-auto mt-14 2xl:mt-4 text-center text-xl 2xl:text-3xl font-semibold'>Norma de Seguridad eléctrica IEC 60601(IRAM 4220):</h2>
-            <p className='w-10/12 lg:w-9/12 mx-auto text-center text-lg 2xl:text-3xl font-light'>mediciones de fugas de corriente, resistencia de protección, etc.</p>
+        <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-10/12 xl:w-9/12 mx-auto my-40 md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
+        
+          <article className='w-full h-48 object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4E] group transition-all ease-in duration-500'>
+            <div href='/certificaciones' className='flex flex-col justify-center items-center group-hover:-translate-y-8 duration-500'>
+              <h2 className="py-2 text-2xl lg:text-2xl text-white text-center uppercase font-bold mt-36 lg:mt-32 group-hover:mt-10">seguridad eléctrica</h2>
+              <Image src={arrow} width={40} alt='arrow' className='group-hover:hidden' />
+              <p className='w-3/6 lg:w-5/6 text-center text-white leading-5 invisible group-hover:visible duration-100'>Norma de seguridad eléctrica <span className='font-semibold'>IEC 60601(IRAM 4220)</span>; mediciones de fugas de corriente, resistencia de protección, etc.</p>
+            </div>
           </article>
-          <article className='w-[270px] md:w-[280px] lg:w-[270px] xl:w-[320px] 2xl:w-[400px] h-[270px] md:h-[300px] xl:h-[320px] 2xl:h-[400px] bg-[#F0F0F5] border-[#27B2C4] border-4 rounded-xl shadow-xl flex flex-col 2xl:justify-center'>
-            <h2 className='w-10/12 lg:w-9/12 mx-auto mt-14 2xl:mt-0 text-center text-xl 2xl:text-3xl font-semibold'>Norma de performance para evaluación post reparación de equipamiento médico IEC 62.353.</h2>
+
+          <article className='w-full h-48 object-cover flex flex-col items-center justify-center bg-[#118CDF] group transition-all ease-in duration-500'>
+            <div href='/servicio-tecnico' className='flex flex-col justify-center items-center group-hover:-translate-y-8 duration-500'>
+              <h2 className="py-2 text-2xl lg:text-2xl text-white text-center uppercase font-bold mt-36 lg:mt-32 group-hover:mt-8">performance</h2>
+              <Image src={arrow} width={40} alt='arrow' className='group-hover:hidden' />
+              <p className='w-3/6 lg:w-5/6 text-center text-white leading-5 invisible group-hover:visible duration-100'>Norma de performance para evaluación recurrente y evaluación post reparación de equipamiento médico <span className='font-semibold'>IEC 62353.</span></p>
+            </div>
           </article>
-          <article className='w-[270px] md:w-[280px] lg:w-[270px] xl:w-[320px] 2xl:w-[400px] h-[270px] md:h-[300px] xl:h-[320px] 2xl:h-[400px] bg-[#F0F0F5] border-[#27B2C4] border-4 rounded-xl shadow-xl flex flex-col 2xl:justify-center'>
-            <h2 className='w-11/12 lg:w-9/12 mx-auto mt-14 2xl:mt-1 text-center text-xl 2xl:text-3xl font-semibold'>Recomendaciones de los fabricantes,<span className='font-normal text-lg 2xl:text-2xl'>mediciones recurrentes, Inspección visual detallada, condiciones ambientales para pruebas in situ.</span></h2>
+
+          <article className='w-full h-48 object-cover flex flex-col items-center justify-center rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-[#27B2C4] group transition-all ease-in duration-500'>
+            <div href='/equipamiento' className='flex flex-col justify-center items-center group-hover:-translate-y-8 duration-500'>
+              <h2 className="py-2 text-2xl lg:text-2xl text-white text-center uppercase font-bold mt-36 lg:mt-32 group-hover:mt-8">recomendaciones</h2>
+              <Image src={arrow} width={40} alt='arrow' className='group-hover:hidden' />
+              <p className='w-3/6 lg:w-5/6 text-center text-white leading-5 invisible group-hover:visible duration-100'><span className='font-semibold'>Recomendaciones de los fabricantes,</span> mediciones recurrentes, inspección visual detallada, condiciones ambientales para pruebas in situ.</p>
+            </div>
           </article>
-        </div>
+
+        </section>
+
       </section>
       <section className='w-10/12 mx-auto'>
         <h2 className='text-[#118CDF] font-extrabold text-2xl md:text-3xl lg:text-6xl mb-4'>¿Cómo lo hacemos?</h2>
         <p className='font-light lg:text-2xl'>Nuestro equipo de certificación visita el establecimiento del cliente. <br />El técnico especializado realiza el <span>control de seguridad al Equipo Médico</span> en el lugar. <br />Los datos obtenidos luego del control de seguridad de guardan mediante el Software de Gestión en la NUBE</p>
-        <h6 className='mt-10 font-light lg:text-2xl'>Otorgamos:</h6>
-        <ul className='list-disc font-light lg:text-2xl mb-12'>
-          <li className='ml-5 lg:text-2xl'>Informe digital.</li>
-          <li className='ml-5 lg:text-2xl'>Informe final impreso y firmado por el técnico en el lugar.</li>
-        </ul>
+        <h6 className='mt-10 text-xl md:text-2xl lg:text-4xl text-[#118CDF] font-extrabold'>Otorgamos:</h6>
+        <div className='grid grid-rows-3 grid-cols-1 xl:grid-rows-1 xl:grid-cols-3 justify-center w-10/12 mx-auto my-20 gap-5 justify-items-center'>
+          <article className=' border-4 rounded-3xl border-[#002d4e] w-72 h-[350px] lg:w-80 lg:h-96 flex flex-col items-center text-center group transition-all ease-in duration-500'>
+            <Image src={notes} width={120} alt='notes' className='mt-10 md:w-36 xl:w-44 group-hover:translate-y-8 group-hover:scale-125 duration-500'/>
+            <p className='text-[#002d4e] text-lg mt-4 font-semibold group-hover:translate-y-8 duration-200 lg:group-hover:scale-75'>informe digital</p>
+          </article>
+          <article className=' border-4 rounded-3xl border-[#002d4e] w-72 h-[350px] lg:w-80 lg:h-96 flex flex-col items-center text-center group transition-all ease-in duration-500'>
+            <Image src={person} width={120} alt='person' className='mt-10 md:w-36 xl:w-44 group-hover:translate-y-8 group-hover:scale-125 duration-500'/>
+            <p className='text-[#002d4e] text-lg mt-4 font-semibold w-11/12 group-hover:translate-y-8 duration-200 lg:group-hover:scale-75'>Informe final impreso y firmado por el técnico en el lugar</p>
+          </article>
+          <article className=' border-4 rounded-3xl border-[#002d4e] w-72 h-[350px] lg:w-80 lg:h-96 flex flex-col items-center text-center group transition-all ease-in duration-500'>
+            <Image src={computer} width={120} alt='computer' className='mt-10 md:w-36 xl:w-44 group-hover:translate-y-8 group-hover:scale-125 duration-500'/>
+            <p className='text-[#002d4e] text-lg mt-4 font-semibold w-11/12 group-hover:translate-y-8 duration-200 lg:group-hover:scale-75'>El cliente podrá controlar el estado del equipo con su usuario y contraseña a través del software de gestión</p>
+          </article>
+          
+        </div>
+
         <p className='font-extrabold lg:text-2xl my-4'>El cliente podrá controlar el estado del equipo con su usuario y contraseña a través del Software de Gestión.</p>
       </section>
-        <section className='grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 w-10/12 mx-auto mt-10 mb-64'>
-        <div>
-        <h2 className='text-[#118CDF] font-extrabold text-2xl md:text-3xl lg:text-5xl mt-4 mb-8'>¿Qué equipamiento utilizamos?</h2>
-        <ul className='lg:text-2xl'>
-          <li className='py-1 ml-5 font-light'>Analizador Desfibriladores/Marcapasos Impulse 6000D/7000DP.</li>
-          <li className='py-1 ml-5 font-light'>Analizador de Electrobisturí RF303RS.</li>
-          <li className='py-1 ml-5 font-light'>Analizador de Flujos/Respiradores VT PLUS HP con pulmón artificial.</li>
-          <li className='py-1 ml-5 font-light'>Analizador de Flujos/Respiradores VT MOBILE.</li>
-          <li className='py-1 ml-5 font-light'>Simulador de Presión Sanguínea No invasiva BP Pump 2.</li>
-          <li className='py-1 ml-5 font-light'>Simulador de Paciente PS420.</li>
-          <li className='py-1 ml-5 font-light'>Simulador de SPO2 Index 2.</li>
-          <li className='py-1 ml-5 font-light'>Analizador de Seguridad Eléctrica ESA620/612.</li>
-          <li className='py-1 ml-5 font-light'>Analizador de incubadoras INCU.</li>
-          <li className='py-1 ml-5 font-light'>Tacómetro Digital Vamos 31.</li>
-          <li className='py-1 ml-5 font-light'>RaySafe X2 Survey.</li>
-        </ul>
+      <section className='grid grid-rows-3 lg:grid-cols-2 lg:grid-rows-1 w-10/12 mx-auto mt-10 mb-44'>
+        <div className=' row-span-2'>
+          <h2 className='text-[#118CDF] font-extrabold text-2xl md:text-3xl lg:text-4xl mt-4 mb-8'>Equipamiento de certificaciones</h2>
+          <ul className='text-base lg:text-2xl'>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>ESA612</span> Electrical Safety Analyzer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>ESA620</span> Electrical Safety Analizer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>Impulse 6000D</span> Desfribilador/trascutaneus Pacemaker Analizer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>Impulse 7000DP</span> Desfribilador/trascutaneus Pacemaker Analizer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>INCU2</span> Analizador de Incubadoras.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>Pro SIM 8 Vitals Signs</span> Analizador/Simulador de Signos Vitales.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>Pro PS420</span> Analizador/Simulador de Signos Vitales.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>QA-ES3</span> Electrosugery Analizer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>RF30RS</span> Electrosugery Analizer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>VT Plus HF</span> Gas Flow Analyzer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>VT900</span> Gas Flow Analyzer.</li>
+            <li className='py-1 ml-5 font-light'><span className='font-semibold'>X-Ray X2 Prestuges</span> Analzador de Equipos de Rayos X.</li>
+          </ul>
         </div>
-        <div className='flex text-center items-center md:w-10/12 md:justify-end lg:mx-auto border-4 border-[#27B2C4] rounded-2xl mt-12 lg:mt-28'>
-          <p className="font-bold text-xl md:text-2xl xl:text-4xl text-[#27B2C4] tracking-wider w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
+        <div className='flex text-center items-center md:w-10/12 h-3/4 md:justify-end lg:mx-auto border-4 border-[#27B2C4] rounded-2xl mt-12 lg:mt-28'>
+          <p className="font-light text-xl md:text-2xl xl:text-4xl text-[#27B2C4] tracking-wider w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
         </div>
-        </section>
+      </section>
       <div className='bg-gradient-to-b from-[#289DAC] to-[#0E3A5D] to-80% text-white'>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   )

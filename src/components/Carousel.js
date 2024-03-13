@@ -1,57 +1,67 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import img1 from '../../public/img/BioTrust_logo.png';
-import img2 from '../../public/img/BioTrust_logo.png';
-import img3 from '../../public/img/BioTrust_logo.png';
-import img4 from '../../public/img/BioTrust_logo.png';
-import img5 from '../../public/img/BioTrust_logo.png';
-import img6 from '../../public/img/BioTrust_logo.png';
-import img7 from '../../public/img/BioTrust_logo.png';
-import img8 from '../../public/img/BioTrust_logo.png';
-import img9 from '../../public/img/BioTrust_logo.png';
-import img10 from '../../public/img/BioTrust_logo.png';
+import img1 from '../../public/img/galenoLogo.png';
+import img2 from '../../public/img/sanTrinidadLogo.png';
+import img3 from '../../public/img/DupuytrenLogo.png';
+import img4 from '../../public/img/sanJoseLogo.png';
+import img5 from '../../public/img/independenciaLogo.png';
+import img6 from '../../public/img/mendezLogo.png';
+import img7 from '../../public/img/cemicLogo.png';
+import img8 from '../../public/img/guemesLogo.png';
+import img9 from '../../public/img/calchaquiLogo.png';
+import img10 from '../../public/img/urquizaLogo.png';
+import img11 from '../../public/img/materDaiLogo.jpeg';
+import img12 from '../../public/img/sjdDiosLogo.png';
+import img13 from '../../public/img/ministerioLogo.png';
 import Image from 'next/image';
+
 
 function App() {
   return (
-    <section className="mt-44 text-center">
-        <h1 className='mb-28 text-3xl md:text-5xl lg:text-7xl text-[#002d4e] font-bold uppercase'>Confiaron en nosotros</h1>
       <div>
-        <Marquee direction="left" speed={150} delay={5}>
+        <Marquee direction="left" speed={100} delay={0.3}>
           <div className="m-0 mx-auto">
-            <Image src={img1} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img1} width={800} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Galeno" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img2} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img2} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Sanatorio Trinidad" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img3} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img3} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Dupuytren" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img4} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img4} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo San Jose" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img5} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img5} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Independencia" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img6} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img6} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Mendez" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img7} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img7} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Cemic" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img8} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img8} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Güemes" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img9} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img9} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Calchaqui" />
           </div>
           <div className="m-0 mx-auto">
-            <Image src={img10} width={400} className='mx-auto w-2/3 lg:w-4/5' alt="" />
+            <Image src={img10} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Urquiza" />
+          </div>
+          <div className="m-0 mx-auto">
+            <Image src={img11} width={300} className='mx-4 w-2/3 lg:w-3/5 object-fill' alt="Logo Mater Dai" />
+          </div>
+          <div className="m-0 mx-auto">
+            <Image src={img12} width={500} className='mx-4 w-2/3 lg:w-4/6 object-fill' alt="Logo San Juan de Dios" />
+          </div>
+          <div className="m-0 mx-auto">
+            <Image src={img13} width={300} className='mx-4 w-2/3 lg:w-4/5' alt="Logo Ministerio de Saluds" />
           </div>
         </Marquee>
       </div>
-    </section>
-  );
+  )
 }
 
 export default App;

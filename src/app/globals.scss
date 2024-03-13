@@ -8,13 +8,12 @@
   }
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 .hero{
-  // , url(../../public/hero.jpg)
-  background:linear-gradient(150deg, #002e4eed 0%,#1b4d70da 20%, rgba(255, 255, 255, 0.318) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  // border-radius: 0 0 70px 70px;
-  height: 90vh;
+  height: 91vh;
   top: 0px;
   z-index: -100;
 }
