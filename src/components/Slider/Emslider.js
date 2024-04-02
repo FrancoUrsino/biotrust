@@ -39,7 +39,7 @@ const Slider = () => {
               className="absolute inset-0 bg-cover bg-center"
               src={item.backgroundImage} alt={item.title}
             />
-            <a href="/certificaciones" className="absolute inset-0 bg-black opacity-20 group-hover:opacity-30" />
+            <a href={`/equipamiento/${item.page}`} target="_blank" className="absolute inset-0 bg-black opacity-20 group-hover:opacity-30" />
             <div className="relative flex flex-col gap-3">
               <h4 className="text-sm lg:text-2xl absolute text-right -bottom-48 text-white font-semibold lg:-bottom-[345px] right-0">{item.title} </h4>
             </div>

@@ -25,7 +25,7 @@ function page() {
           {/* Neonatología */}
 
           <article className='w-full h-48 md:h-64 lg:h-[380px] object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4E] group transition-all ease-in duration-500'>
-            <a href='#cuidadosIntensivos' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
+            <a href='#neonatologia' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
               <Image src={medIcon} width={80} alt='icono de certificado' loading='lazy' className='lg:w-56' />
               <p className="py-2 text-sm lg:text-2xl text-white text-center uppercase font-bold">Neonatología</p>
             </a>
@@ -33,14 +33,14 @@ function page() {
 
           {/* Cuidados Intensivos */}
           <article className='w-full h-48 md:h-64 lg:h-[380px] object-cover flex flex-col items-center justify-center bg-[#118CDF] group transition-all ease-in duration-500'>
-            <a href='#quirofanos' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
+            <a href='#cuidadosIntensivos' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
               <Image src={healIcon} width={80} alt='icono de servicio tecnico' loading='lazy' className=' md:-translate-y-3 lg:w-64' />
               <p className="py-1 mt-0 text-sm lg:text-2xl text-white text-center uppercase font-bold lg:-translate-y-4">Cuidados Intensivos</p>
             </a>
           </article>
           {/* Quirófanos */}
           <article className='w-full h-48 md:h-64 lg:h-[380px] object-cover flex flex-col items-center justify-center bg-[#27B2C4] group transition-all ease-in duration-500'>
-            <a href='#emergencias' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
+            <a href='#quirofanos' className='flex flex-col justify-center items-center group-hover:translate-y-4 group-hover:scale-125 duration-500'>
               <Image src={esIcon} width={80} alt='icono de servicio tecnico' loading='lazy' className='md:-translate-y-3 lg:w-56' />
               <p className="py-1 mt-0 text-sm lg:text-2xl text-white text-center uppercase font-bold lg:-translate-y-2">Quirófanos</p>
             </a>

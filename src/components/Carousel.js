@@ -13,6 +13,8 @@ import img10 from '../../public/img/urquizaLogo.png';
 import img11 from '../../public/img/materDaiLogo.jpeg';
 import img12 from '../../public/img/sjdDiosLogo.png';
 import img13 from '../../public/img/ministerioLogo.png';
+import img14 from '../../public/img/pedroMallo.png';
+import img15 from '../../public/img/jcPaz.png';
 import Image from 'next/image';
 
 
@@ -58,6 +60,12 @@ function App() {
           </div>
           <div className="m-0 mx-auto">
             <Image src={img13} width={300} className='mx-4 w-2/3 lg:w-4/5' alt="Logo Ministerio de Saluds" />
+          </div>
+          <div className="m-0 mx-auto">
+            <Image src={img14} width={2500} className='mx-4 w-2/3 lg:w-4/5' alt="Logo Ministerio de Saluds" />
+          </div>
+          <div className="m-0 mx-auto">
+            <Image src={img15} width={400} className='mx-4 w-2/3 lg:w-4/5' alt="Logo Ministerio de Saluds" />
           </div>
         </Marquee>
       </div>
