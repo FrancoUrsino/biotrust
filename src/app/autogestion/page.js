@@ -12,6 +12,7 @@ function page() {
     <main>
       <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>autogestión</h1>
       <h6 className='text-center text-[#002D4E] mt-10 w-10/12 mx-auto md:text-xl lg:text-2xl'>Control de Performance y Seguridad en Tecnología Sanitaria</h6>
+      <Sidebar />
       <section className='w-10/12 mx-auto my-14 grid grid-cols-1 grid-rows-1 lg:grid-cols-3 justify-between justify-items-center'>
         <div className='rounded-2xl border-4 border-[#002d4e] col-span-2'>
           <p className='text-[#002d4e] md:text-lg px-10 py-10'>La plataforma de gestión <span className='font-semibold'>Software de Tecnología Sanitaria</span> (STS), permite el acceso remoto desde cualquier dispositivo que disponga acceso a internet. Con esta herramienta, se puede hacer seguimiento en tiempo real a los resultados de los controles de seguridad de cada equipo, al inventario de equipamiento, su ubicación física y disposición, una vez que los datos son relevados por los técnicos.</p>
@@ -20,7 +21,6 @@ function page() {
         <Image src={autoGestion} alt='autogestion icono' className='hidden lg:block'/>
         </div>
       </section>
-      <Sidebar />
       <section className='grid grid-rows-4 gap-y-10 lg:grid-cols-2 lg:grid-rows-2 lg:w-11/12 lg:mx-auto justify-items-center'>
         <div className="w-10/12 md:w-8/12 lg:w-10/12 mx-auto bg-[#002d4e] rounded-2xl text-white">
           <p className="px-8 pt-12 md:text-lg lg:text-xl pb-5 font-semibold">Software de Tecnología Sanitaria (STS) <span className="font-light">te permite visualizar de manera, rápida, simple y efectiva el estado actual e histórico de su equipamiento.</span></p>

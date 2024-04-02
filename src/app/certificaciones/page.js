@@ -14,7 +14,7 @@ function page() {
   return (
     <main className='w-full absolute bg-[#f0f0f5]'>
       <section>
-        <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>certificaciones</h1>
+        <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-4xl md:text-6xl lg:text-8xl'>certificaciones</h1>
         <h6 className='text-center text-[#002D4E] mt-10 w-10/12 mx-auto md:text-xl lg:text-2xl'>Para realizar los protocolos y procedimientos Biotrust se basa en las siguientes normas</h6>
         <Sidebar />
         <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-10/12 xl:w-9/12 mx-auto my-40 md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
@@ -86,16 +86,16 @@ function page() {
             <li className='py-1 ml-5 font-light'><span className='font-semibold'>X-Ray X2 Prestuges</span> Analzador de Equipos de Rayos X.</li>
           </ul>
         </div>
-        <div className="grid  align-middle">
-          <div className='flex text-center items-center md:w-10/12 h-full md:justify-end lg:mx-auto border-4 border-[#27B2C4] rounded-2xl mt-12 lg:mt-16'>
-            <p className="font-light text-xl md:text-2xl xl:text-4xl text-[#27B2C4] tracking-wider w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
+        <div className="align-middle">
+          <div className='flex text-center items-center md:w-10/12 h-full md:justify-end lg:mx-auto  mt-12 lg:mt-16'>
+            <p className="font-light text-xl md:text-2xl xl:text-4xl text-[#27B2C4] tracking-wider border-4 border-[#27B2C4] rounded-2xl p-10 w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
           </div>
-          <div className='w-full md:w-10/12 lg:mx-auto '>
+          {/* <div className='w-full md:w-10/12 lg:mx-auto '>
             <Link href='/autogestion' className='flex w-full relative rounded-2xl pl-4 py-5 bg-[#002D4E] top-44 lg:top-20'>
               <Image src={serCom} alt='service computer logo'/>
               <p className='text-white pl-20 text-2xl lg:text-3xl py-5'>Sistema de autogestión</p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       <div className='bg-gradient-to-b from-[#289DAC] to-[#0E3A5D] to-80% text-white'>

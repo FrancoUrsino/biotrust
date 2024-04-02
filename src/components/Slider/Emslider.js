@@ -24,17 +24,21 @@ const Slider = () => {
             slidesPerView: 3,
             spaceBetween: 15,
           },
+          1500: {
+            slidesPerView: 4,
+            spaceBetween: 70,
+          }
         }}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="max-w-[90%] lg:max-w-[80%]"
+        className="max-w-[100%] lg:max-w-[95%]"
       >
         {ServiceDataEm.map((item) => (
           <SwiperSlide key={item.title}>
-          <div className="flex flex-col gap-6 mb-20 group relative shadow-lg rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
+          <div className="flex flex-col gap-6 mb-20 group relative shadow-lg rounded-xl px-6 py-8 h-[250px] w-[200px] lg:h-[400px] lg:w-[330px] overflow-hidden cursor-pointer">
             <Image
               className="absolute inset-0 bg-cover bg-center"
               src={item.backgroundImage} alt={item.title}
