@@ -47,7 +47,7 @@ export default function Home() {
           </article>
 
         </section>
-        <Image src={logo} width={300} alt='Logo BioTrust' className='object-contain invisible md:visible absolute ml-5 lg:left-[30%] xl:left-[35%] 2xl:left-[40%] lg:w-[450px] top-20 mx-auto' />
+        {/* <Image src={logo} width={300} alt='Logo BioTrust' className='object-contain invisible md:visible absolute ml-5 lg:left-[30%] xl:left-[35%] 2xl:left-[40%] lg:w-[450px] top-20 mx-auto' /> */}
         <div className='flex flex-col absolute right-10 top-28' >
           <Image src={logo2} width={200} alt='logo itaes' />
           <p className='flex justify-end font-extrabold text-sky-950 text-xl'>NOS AVALA</p>
