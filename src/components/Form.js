@@ -143,8 +143,8 @@ function Form() {
                 } w-full bg-slate-100/90 border-2 rounded-2xl px-4 py-2 text-base text-gray-600 outline-none duration-300 resize-none`}
               rows="8"
             ></textarea>
-            <div className="flex flex-col mt-6 md:flex-row justify-center text-center align-middle">
-              <button className="border-2 rounded-2xl border-[#0E3A5D] bg-[#0E3A5D] flex justify-center text-center mt-2 md:mt-0 md:w-full text-xl md:text-2xl lg:text-3xl py-2 md:py-6 transition duration-150 hover:bg-[#0e3a5da3] hover:ease-linear text-white" onClick={handleSend}>ENVIAR MENSAJE</button>
+            <div className="flex flex-col mt-6 md:flex-row justify-center text-center align-middle lg:justify-end">
+              <button className="border-2 rounded-2xl border-[#0E3A5D] bg-[#0E3A5D] flex justify-center text-center mt-2 md:mt-0 md:w-full lg:max-w-64 text-xl md:text-2xl lg:text-3xl py-2 md:py-6 transition duration-150 hover:bg-[#0e3a5da3] hover:ease-linear text-white" onClick={handleSend}>ENVIAR</button>
             </div>
           </div>
         </form>

@@ -55,7 +55,7 @@ function page() {
         <article className='w-10/12 rounded-3xl mx-auto bg-[#27B2C4] mt-20 mb10 py-10 text-center'>
           {/* <h2 className='font-semibold text-white pl-5 py-3 md:pl-8 lg:pl-11 xl:pl-16 text-2xl lg:text-3xl'>Tener esta información y controles permite</h2> */}
           <ShowMore
-            text={'¿Qué es??'}
+            text={'¿Qué es?'}
             moreText={'Es la aplicación de protocolos y procedimientos, regulados según las normas correspondientes, sobre un equipo de uso médico con el propósito de determinar la capacidad de respuesta operativa correcta, permitiendo detectar las fallas que puedan implicar un riesgo para el paciente o el usuario.'}
           />
         </article>

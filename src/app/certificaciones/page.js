@@ -61,7 +61,7 @@ function page() {
           </article>
           <article className=' border-4 rounded-3xl border-[#002d4e] w-72 h-[350px] lg:w-80 lg:h-96 flex flex-col items-center text-center group transition-all ease-in duration-500'>
             <Image src={computer} width={120} alt='computer' className='mt-10 md:w-36 xl:w-44 group-hover:translate-y-8 group-hover:scale-125 duration-500' />
-            <p className='text-[#002d4e] text-lg mt-4 font-semibold w-11/12 group-hover:translate-y-8 duration-200 lg:group-hover:scale-75'>El cliente podrá controlar el estado del equipo con su usuario y contraseña a través del software de gestión</p>
+            <p className='text-[#002d4e] text-normal mt-4 font-semibold w-11/12 group-hover:translate-y-8 duration-200 lg:group-hover:scale-75'>El cliente podrá controlar el estado del equipo con su usuario y contraseña a través del software de gestión</p>
           </article>
 
         </div>
@@ -88,7 +88,7 @@ function page() {
         </div>
         <div className="align-middle">
           <div className='flex text-center items-center md:w-10/12 h-full md:justify-end lg:mx-auto  mt-12 lg:mt-16'>
-            <p className="font-light text-xl md:text-2xl xl:text-4xl text-[#27B2C4] tracking-wider border-4 border-[#27B2C4] rounded-2xl p-10 w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
+            <p className="font-light text-xl md:text-2xl xl:text-3xl 2xl:text-4xl text-[#27B2C4] tracking-wider border-4 border-[#27B2C4] rounded-2xl p-10 w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
           </div>
           {/* <div className='w-full md:w-10/12 lg:mx-auto '>
             <Link href='/autogestion' className='flex w-full relative rounded-2xl pl-4 py-5 bg-[#002D4E] top-44 lg:top-20'>

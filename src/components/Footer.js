@@ -29,8 +29,8 @@ function Footer() {
         <div className='flex flex-col md:mb-4 lg:text-left'>
           <h3 className='font-bold mt-2 md:mt-6 mb-2'>Contacto</h3>
           <p>Asistencia técnica: <a href="mailto:info@biotrust.com.ar" target="_blank" className='text-sm md:text-base xl:text-lg hover:text-[#27B2C4]' rel="noopener noreferrer">info@biotrust.com.ar</a></p>
-          <p>Asistencia comercial: -equipamiento médico, insumos: <a href="mailto:administracion@biotruts.com.ar" className=' hover:text-[#27B2C4]' target="_blank" rel="noopener noreferrer">administracion@biotruts.com.ar</a></p>
-          <p>Tel/Fax: <a href="tel:52738995" target="_blank" rel="noopener noreferrer">5273 8995</a></p>
+          <p>Asistencia comercial: -equipamiento médico, insumos: <a href="mailto:administracion@biotruts.com.ar" className='hover:text-[#27B2C4]' target="_blank" rel="noopener noreferrer">administracion@biotruts.com.ar</a></p>
+          <p>Tel/Fax: <a href="tel:52738995" target="_blank" rel="noopener noreferrer" className='hover:text-[#27B2C4]'>5273 8995</a></p>
         </div>
         <div className='lg:text-left'>
           <h2 className='font-bold mt-2 md:mt-6 mb-2'>Nuestras sedes</h2>

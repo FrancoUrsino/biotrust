@@ -20,7 +20,7 @@ function page() {
           </div>
           {/* <Sidebar /> */}
           <div>
-            <p className='lg:mt-48 text-[#002d4e] font-bold text-lg md:text-xl lg:text-2xl  2xl:text-3xl flex text-center justify-center items-center'><Image src={sobre} alt='icono sobre' width={40} className='mr-3' />Dejanos tu mensaje y será respondido a la brevedad</p>
+            <p className='lg:mt-48 text-[#002d4e] font-bold text-lg md:text-xl lg:text-2xl flex text-center justify-center items-center'><Image src={sobre} alt='icono sobre' width={40} className='mr-3 -translate-y-3 lg:-translate-y-3 md:-translate-y-0 xl:-translate-y-0' />Dejanos tu mensaje y será respondido a la brevedad</p>
             <Form />
           </div>
         </section>

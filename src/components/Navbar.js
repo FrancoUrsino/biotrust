@@ -54,24 +54,24 @@ function Navbar() {
               }`}
           >
             <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-              <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center border-b-2 md:border-b-0  hover:bg-700 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+              <li className="text-base md:text-sm md:px-4 lg:text-lg lg:px-6 2xl:text-xl text-white py-2 px-1 text-center border-b-2 md:border-b-0  hover:bg-700 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                 <Link href="/quienes-somos" onClick={() => setNavbar(!navbar)}>
                   QUIÉNES SOMOS
                 </Link>
               </li>
-              <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+              <li className="text-base md:text-sm md:px-6 lg:text-lg lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                 <Link href="/clientes" onClick={() => setNavbar(!navbar)}>
                   CLIENTES
                 </Link>
               </li>
-              <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+              <li className="text-base md:text-sm md:px-6 lg:text-lg lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                 <Link href="/autogestion" onClick={() => setNavbar(!navbar)}>
                   AUTOGESTIÓN
                 </Link>
               </li>
-              <li className="text-base md:px-6 lg:text-lg lg:px-10 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+              <li className="text-base md:text-sm md:px-6 lg:text-lg lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                 <Link href="/contactanos" onClick={() => setNavbar(!navbar)}>
-                  CONTÁCTANOS
+                  CONTACTANOS
                 </Link>
               </li>
             </ul>
