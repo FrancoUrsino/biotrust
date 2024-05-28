@@ -12,6 +12,12 @@
   scroll-behavior: smooth;
 }
 
+.hero-bg{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(../../public/img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hero{
   height: 91vh;
   top: 0px;
