@@ -3,11 +3,13 @@ import Image from 'next/image'
 import React from 'react'
 import sobre from '../../../public/img/sobre.svg'
 import Footer from '@/components/Footer'
-import Sidebar from '@/components/Sidebar'
+// import Sidebar from '@/components/Sidebar'
+import Navbar from '@/components/Navbar'
 
 function page() {
   return (
     <>
+      <Navbar/>
       <main className='bg-[#f5f5f5]'>
         <section className='grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 justify-center items-center w-11/12 mx-auto pb-28'>
           <div className='mx-auto w-11/12'>

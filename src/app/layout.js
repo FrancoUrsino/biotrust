@@ -1,5 +1,5 @@
 import "./globals.scss";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 import { Libre_Franklin } from "next/font/google";
 
 const font = Libre_Franklin({ subsets: ["latin"] });
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={font.className}>
-        <Navbar/>
+        {/* <Navbar/> */}
         {children}
       </body>
     </html>
