@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-function subNav() {
+function SubNav() {
   return (
     <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-11/12  lg:w-1/2 mx-auto md:rounded-bl-2xl md:rounded-br-2xl md:rounded-tl-2xl md:rounded-tr-2xl md:shadow-2xl md:shadow-black mt-24">
       {/* CERTIFICADOS */}
@@ -32,4 +32,4 @@ function subNav() {
   )
 }
 
-export default subNav
+export default SubNav

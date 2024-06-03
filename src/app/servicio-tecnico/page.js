@@ -1,8 +1,8 @@
 import Footer from '@/components/Footer'
-import SubNav from '@/components/SubNav'
 import Carousel2 from '@/components/Carousel2'
 import React from 'react'
 import Navbar from '@/components/Navbar'
+import SubNav from '@/components/SubNav'
 
 function page() {
   return (

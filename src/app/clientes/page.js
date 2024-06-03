@@ -1,10 +1,10 @@
 import React from 'react'
 import Carousel from '@/components/Carousel'
 import Footer from '@/components/Footer'
-import SubNav from '@/components/SubNav'
 import Image from 'next/image';
 import escudo from '../../../public/img/escudo.svg';
 import Navbar from '@/components/Navbar';
+import SubNav from '@/components/SubNav';
 
 function page() {
   return (

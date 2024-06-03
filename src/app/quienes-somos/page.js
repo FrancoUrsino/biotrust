@@ -2,8 +2,8 @@ import Footer from '@/components/Footer'
 import Image from 'next/image'
 import React from 'react'
 import nosIcon from '../../../public/img/nosIcon.png'
-import SubNav from '@/components/SubNav'
 import Navbar from '@/components/Navbar'
+import SubNav from '@/components/SubNav'
 
 function page() {
   return (

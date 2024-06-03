@@ -4,7 +4,8 @@ import React from 'react'
 import sobre from '../../../public/img/sobre.svg'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import SubNav from '@/components/subNav'
+import SubNav from '@/components/SubNav'
+
 
 function page() {
   return (

@@ -1,5 +1,4 @@
 import Footer from '@/components/Footer'
-import SubNav from '@/components/SubNav'
 import React from 'react'
 import '../globals.scss'
 import Image from 'next/image'
@@ -8,6 +7,7 @@ import person from '../../../public/img/person.svg'
 import computer from '../../../public/img/computer.svg'
 import arrow from '../../../public/img/arrow.svg'
 import Navbar from '@/components/Navbar'
+import SubNav from '@/components/SubNav'
 
 function page() {
   return (
