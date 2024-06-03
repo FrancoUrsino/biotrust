@@ -79,10 +79,11 @@ function Form() {
         nombre: clientName,
         institucion: clientInstitution,
         email: email,
+        numero: phone,
         mensaje: messages,
       });
       setSuccessMsg(
-        ("Hola ") + `${clientName}` + (", gracias por tu consulta. Te responderemos a la brevedad")
+        ("Hola ") + `${clientName}` + (", gracias por tu consulta. Te responderemos en la brevedad")
       );
       setClientName("");
       setClientInstitution("");

@@ -1,22 +1,23 @@
 import Footer from '@/components/Footer'
-import Sidebar from '@/components/Sidebar'
+import SubNav from '@/components/SubNav'
 import React from 'react'
 import '../globals.scss'
 import Image from 'next/image'
-import Link from 'next/link'
 import notes from '../../../public/img/notes.svg'
 import person from '../../../public/img/person.svg'
 import computer from '../../../public/img/computer.svg'
 import arrow from '../../../public/img/arrow.svg'
-import serCom from '../../../public/img/serviceComputer.svg'
+import Navbar from '@/components/Navbar'
 
 function page() {
   return (
+    <>
+    <Navbar/>
     <main className='w-full absolute bg-[#f0f0f5]'>
+      <SubNav/>
       <section>
         <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-4xl md:text-6xl lg:text-8xl'>certificaciones</h1>
         <h6 className='text-center text-[#002D4E] mt-10 w-10/12 mx-auto md:text-xl lg:text-2xl'>Para realizar los protocolos y procedimientos Biotrust se basa en las siguientes normas</h6>
-        <Sidebar />
         <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-10/12 xl:w-9/12 mx-auto my-40 md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
 
           <article className='w-full h-48 object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4E] group transition-all ease-in duration-500'>
@@ -102,6 +103,7 @@ function page() {
         <Footer />
       </div>
     </main>
+    </>
   )
 }
 

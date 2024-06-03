@@ -1,6 +1,6 @@
 'use client'
 import Footer from '@/components/Footer'
-import Sidebar from '@/components/Sidebar'
+import SubNav from '@/components/SubNav'
 import React from 'react'
 import Image from 'next/image'
 import medIcon from '../../../public/img/medIcon.svg'
@@ -12,15 +12,17 @@ import Neoslider from '@/components/Slider/Neoslider'
 import Slider from '@/components/Slider/Slider'
 import Cislider from '@/components/Slider/Cislider'
 import Emslider from '@/components/Slider/Emslider'
+import Navbar from '@/components/Navbar'
 
 
 function page() {
   return (
     <>
+    <Navbar/>
       <main>
+        <SubNav/>
         <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>Equipamiento</h1>
         <h2 className='text-[#002D4E] mt-4 mb-14 text-center lg:text-2xl'>Dentro de nuestra línea de productos ofrecemos</h2>
-        <Sidebar />
         <section className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-1 justify-center justify-items-center top-[250px] md:top-[500px] lg:top-[300px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
           {/* Neonatología */}
 
@@ -71,7 +73,7 @@ function page() {
           <h3 className='mt-10 text-2xl md:text-3xl lg:text-5xl text-[#118CDF] font-extrabold' id='emergencias'>Emergencias</h3>
             <Emslider/>
         </section>
-        <Sidebar />
+        <SubNav />
       </main>
       <Footer />
     </>

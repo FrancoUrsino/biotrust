@@ -2,14 +2,16 @@ import Footer from '@/components/Footer'
 import Image from 'next/image'
 import React from 'react'
 import nosIcon from '../../../public/img/nosIcon.png'
-import Sidebar from '@/components/Sidebar'
+import SubNav from '@/components/SubNav'
+import Navbar from '@/components/Navbar'
 
 function page() {
   return (
     <>
-      <main className='w-full bg-[#f0f0f5] pb-1 text-left'>
+    <Navbar/>
+      <main className='w-full bg-[#f0f0f5] pt-4 pb-1 text-left'>
+            <SubNav />
         <h1 className='shadow-text text-[#002D4E] mt-0 pt-44 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>nosotros</h1>
-            <Sidebar />
         <section className='w-10/12 mx-auto my-28'>
           <div className='grid lg:grid-cols-2'>
             <div>

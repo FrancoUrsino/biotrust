@@ -6,9 +6,6 @@ import React, { useEffect, useState } from 'react'
 import logo from '../../public/img/Bio_logo-home.png'
 import key from '../../public/img/key.png'
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-// import cerIcon from '../../public/img/certifIcon.png'
-// import kitIcon from '../../public/img/kitIcon.png'
-// import serIcon from '../../public/img/serIcon.png'
 import Footer from "@/components/Footer";
 
 
@@ -83,12 +80,12 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-10 lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
-                  <Link href="/contactanos" onClick={() => setNavbar(!navbar)}>
+                  <Link href="http://biotrust-gestiondeclientes.com" target='_blank' onClick={() => setNavbar(!navbar)}>
                     DASHBOARD
                   </Link>
                 </li>
                 <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-20 lg:px-6 xl:text-xl text-white py-2 px-1 flex justify-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  <Link href="http://66.97.36.141/biotrust/admin/" target='_blank' onClick={() => setNavbar(!navbar)}>
                     <Image src={key} width={30} alt='Logo' />
                   </Link>
                 </li>
@@ -104,7 +101,6 @@ export default function Home() {
 
             <article className='w-full h-48 md:h-64 lg:h-[380px] xl:h-[400px] object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4EA1] group transition-all ease-in duration-500'>
               <Link href='/certificaciones' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                {/* <Image src={cerIcon} width={100} alt='icono de certificado' className='mt-4  lg:w-56' /> */}
                 <p className="py-2 text-sm lg:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">certificaciones</p>
                 <p className='w-5/6 text-center text-white md:text-lg lg:text-normal lg:mt-4 leading-5 group-hover:invisible'>Cumpliendo con las leyes nacionales y disposiciones del <span className='font-semibold'>ANMAT</span> </p>
               </Link>
@@ -113,7 +109,6 @@ export default function Home() {
             {/* SERVICIO TECNICO */}
             <article className='w-full h-48 md:h-64 lg:h-[380px] xl:h-[400px] object-cover flex flex-col items-center justify-center bg-[#118CDF99] group transition-all ease-in duration-500'>
               <Link href='/servicio-tecnico' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                {/* <Image src={serIcon} width={100} alt='icono de servicio tecnico' className='mt-4 md:-translate-y-3 lg:w-56' /> */}
                 <p className="py-1 mt-0 text-sm lg:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">servico técnico</p>
                 <p className='w-3/4 text-center text-white lg:text-2xl lg:mt-4 lg:translate-y-2 group-hover:invisible'>Mantenimiento preventivo y correctivo</p>
               </Link>
@@ -123,7 +118,6 @@ export default function Home() {
 
             <article className='w-full h-48 md:h-64 lg:h-[380px] xl:h-[400px] object-cover flex flex-col items-center justify-center rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-[#27B2C4A8] group transition-all ease-in duration-500'>
               <Link href='/equipamiento' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                {/* <Image src={kitIcon} width={100} alt='icono de equipamientos' className='mt-4 -translate-y-2 lg:w-56' /> */}
                 <p className="py-2 text-sm lg:text-3xl text-white text-center uppercase font-bold -translate-y-2">equipamiento</p>
                 <p className='w-3/4 text-center text-white lg:text-2xl lg:mt-4 -translate-y-2 group-hover:invisible'>Venta y alquiler de equipamiento médico</p>
               </Link>
