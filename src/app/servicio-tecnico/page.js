@@ -15,7 +15,7 @@ function page() {
         </section>
           <SubNav />
           <section className='w-full mx-auto my-10'>
-          <iframe width="300" height="215" src="https://www.youtube.com/embed/oz16bKZZAB0?si=FUA00yi3wp5CMgQr" title="YouTube video player" className='mx-auto lg:w-[800px] lg:h-[615px]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen loading='lazy'></iframe>
+          <iframe width="300" height="215" src="https://www.youtube.com/embed/oz16bKZZAB0?si=FUA00yi3wp5CMgQr" title="YouTube video player" className='mx-auto lg:w-[800px] lg:h-[615px]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen loading='lazy' ></iframe>
           </section>
         <section className='w-11/12 mx-auto grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 justify-center gap-1 my-10 rounded-3xl'>
           <article className='w-full mx-auto bg-[#002D4EA1] py-10 lg:rounded-tl-2xl lg:rounded-bl-2xl'>
