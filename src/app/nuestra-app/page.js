@@ -16,7 +16,7 @@ function page() {
       <Navbar />
       <main>
         <section className='title-bg-app'>
-          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-48 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>nuestra app</h1>
+          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-48 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>nuestra app</h1>
         </section>
         <SubNav />
         <section className='w-11/12 mx-auto my-14 grid grid-cols-1 grid-rows-1 justify-between justify-items-center'>
