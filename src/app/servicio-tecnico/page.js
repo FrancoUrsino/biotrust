@@ -11,7 +11,7 @@ function page() {
       <Navbar />
       <main className=''>
         <section className='title-bg-service'>
-          <h1 className='shadow-text text-[#f5f5f5] relative top-[280px] md:top-[260px] lg:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-4xl md:text-6xl lg:text-8xl'>servicio técnico</h1>
+          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] xl:top-[270px] 2xl:top-48 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>servicio técnico</h1>
         </section>
           <SubNav />
           <section className='w-full mx-auto my-10'>
