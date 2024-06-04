@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../../public/img/BioTrust_logoBlanco.png'
+import logo from '../../public/img/Bio_logo-home.png'
 import linkedin from '../../public/img/linkedin.svg'
 import maps from '../../public/img/maps.svg'
 import Link from 'next/link'

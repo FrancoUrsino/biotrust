@@ -70,8 +70,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-10 lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
-                  <Link href="/autogestion" onClick={() => setNavbar(!navbar)}>
-                    AUTOGESTIÓN
+                  <Link href="/nuestra-app" onClick={() => setNavbar(!navbar)}>
+                    NUESTRA APP
                   </Link>
                 </li>
                 <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-10 lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
@@ -124,7 +124,7 @@ export default function Home() {
             </article>
 
           </section>
-          <div className='flex flex- w-full absolute top-2 lg:top-4 justify-center'>
+          <div className='flex flex- w-full absolute top-24 lg:top-28 justify-center'>
           <Image src={logo} width={300} alt='logo' className='lg:w-[400px]' />
         </div>
           <h1 className="mx-auto text-lg w-10/12 md:text-3xl md:w-11/12 xl:text-2xl lg:w-full text-center relative top-[280px] md:top-[350px] lg:top-[300px] 2xl:top-[350px] text-[#f1f1f1] uppercase font-bold">LA EXPERENCIA, TECNOLOGIA Y CONOCIMIENTO AL SERVICIO DE LA GESTIÓN DE EQUIPAMIENTO MEDICO</h1>

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import logo from '../../public/img/BioTrust_logoBlanco.png'
+import logo from '../../public/img/Bio_logo-home.png'
 import key from '../../public/img/key.png'
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
@@ -66,8 +66,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="text-base md:text-sm md:px-6 lg:text-lg lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
-              <Link href="/autogestion" onClick={() => setNavbar(!navbar)}>
-                AUTOGESTIÓN
+              <Link href="/nuestra-app" onClick={() => setNavbar(!navbar)}>
+                NUESTRA APP
               </Link>
             </li>
             <li className="text-base md:text-sm md:px-6 lg:text-lg lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
