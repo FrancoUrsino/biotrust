@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function SubNav() {
   return (
-    <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-11/12  lg:w-1/2 mx-auto md:rounded-bl-2xl md:rounded-br-2xl md:rounded-tl-2xl md:rounded-tr-2xl md:shadow-2xl md:shadow-black mt-24">
+    <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center justify-items-center w-11/12  lg:w-1/2 mx-auto md:rounded-bl-2xl md:rounded-br-2xl md:rounded-tl-2xl md:rounded-tr-2xl md:shadow-2xl md:shadow-black -mt-24">
       {/* CERTIFICADOS */}
 
       <article className='w-full h-14 object-cover flex flex-col items-center justify-center rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl  bg-[#002D4EA1] group transition-all ease-in duration-500'>

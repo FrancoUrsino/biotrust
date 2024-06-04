@@ -20,7 +20,9 @@ function page() {
     <>
     <Navbar/>
       <main>
-        <SubNav/>
+      <div className='mt-48'>
+      <SubNav/>
+      </div>
         <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-5xl md:text-6xl lg:text-8xl'>Equipamiento</h1>
         <h2 className='text-[#002D4E] mt-4 mb-14 text-center lg:text-2xl'>Dentro de nuestra línea de productos ofrecemos</h2>
         <section className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-1 justify-center justify-items-center top-[250px] md:top-[500px] lg:top-[300px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">

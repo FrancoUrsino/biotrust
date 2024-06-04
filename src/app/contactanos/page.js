@@ -12,7 +12,9 @@ function page() {
     <>
       <Navbar/>
       <main className='bg-[#f5f5f5] pt-6'>
-        <SubNav/>
+      <div className='mt-48'>
+      <SubNav/>
+      </div>
         <section className='grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 justify-center items-center w-11/12 mx-auto pb-28'>
           <div className='mx-auto w-11/12'>
             <h2 className='text-[#002d4e] font-bold text-2xl lg:text-4xl uppercase pt-10 lg:pt-0 mt-4 lg:mt-20 mb-4'>contáctanos</h2>

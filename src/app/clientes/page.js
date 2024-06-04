@@ -11,7 +11,9 @@ function page() {
     <>
     <Navbar/>
       <main className='pt-10 bg-[#f5f5f5]'>
-        <SubNav/>
+      <div className='mt-48'>
+      <SubNav/>
+      </div>
         <section className="pt-44 text-center bg-[#f5f5f5]">
           <h1 className='mb-28 text-3xl md:text-5xl lg:text-7xl text-[#002d4e] font-bold uppercase'>Confían en nosotros</h1>
           <Carousel />

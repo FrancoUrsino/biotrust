@@ -14,7 +14,9 @@ function page() {
     <>
     <Navbar/>
     <main className='w-full absolute bg-[#f0f0f5]'>
+      <div className='mt-48'>
       <SubNav/>
+      </div>
       <section>
         <h1 className='shadow-text text-[#002D4E] mt-28 text-center font-extrabold uppercase text-4xl md:text-6xl lg:text-8xl'>certificaciones</h1>
         <h6 className='text-center text-[#002D4E] mt-10 w-10/12 mx-auto md:text-xl lg:text-2xl'>Para realizar los protocolos y procedimientos Biotrust se basa en las siguientes normas</h6>
