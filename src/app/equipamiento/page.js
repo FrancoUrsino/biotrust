@@ -67,7 +67,6 @@ function page() {
           <h3 className='mt-10 text-2xl md:text-3xl lg:text-5xl text-[#002D4E] font-extrabold' id='emergencias'>Emergencias</h3>
             <Emslider/>
         </section>
-        <SubNav />
       </main>
       <Footer />
     </>
