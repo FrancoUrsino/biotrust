@@ -16,7 +16,7 @@ function page() {
       <Navbar />
       <main>
         <section className='title-bg-app'>
-          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-48 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>nuestra app</h1>
+          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-36 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-5xl'>nuestra app</h1>
         </section>
         <SubNav />
         <section className='w-11/12 mx-auto my-14 grid grid-cols-1 grid-rows-1 justify-between justify-items-center'>
@@ -57,7 +57,7 @@ function page() {
           </article>
         </section>
 
-        <section className='my-20 w-11/12 mx-auto'>
+        <section className='mt-20 mb-10 w-11/12 mx-auto'>
           <h2 className='text-[#002d4e] font-semibold text-2xl lg:text-3xl pb-6'>¿Cómo funciona?</h2>
           <p className='pb-4'>Las tomas de inventarios son "barridas" in situ que permiten:</p>
           <ul className='list-disc pl-6'>
@@ -65,13 +65,13 @@ function page() {
             <li className='pb-1'>Identificación del equipamiento, relevamiento a través de todos sus párametros, una <span className='font-semibold'>etiqueta QR</span> y hasta <span className='font-semibold'>Chip de RFID (IDENTIFICACIÓN POR RADIO Frecuencia)</span> que permite visualizar en línea el movimiento y ubicación de todo el equipamiento para su control y seguridad.</li>
             <li className='pb-1'>Visualización en línea por tipo de equipos para gestionar una movilidad interna y una eficiente gestión del equipamiento.</li>
           </ul>
-          <article className='w-10/12 mx-auto rounded-3xl  bg-[#002D4E] mt-20 mb10 py-10 text-center transition-all duration-300 ease-in-out'>
+          <article className='w-10/12 mx-auto rounded-3xl  bg-[#002D4E] mt-10 mb-4 pt-10 pb-6 text-center transition-all duration-300 ease-in-out'>
             <ShowMore
               text={'¿Porqué realizar un control de Seguridad y Performance de Tecnología Sanitaria?'}
               moreText={'Todas las normas de calidad indican la necesidad de efectuar controles de seguridad en los equipos, ya que esta supervisión periódica permite adelantarse a la ocurrencia de fallas, previniendo errores de funcionamiento y averías, asegurando un eficiente rendimiento de los equipos y garantizando su seguridad. Así mismo, los entes reguladores y los ministerios de Salud, nacionales y provinciales, en concordancia con las normas internacionales, exigen la aplicación de las normas vigentes, para cumplir con las leyes y resoluciones que regulan el equipamiento médico.'}
             />
           </article>
-          <article className='w-10/12 rounded-3xl mx-auto bg-[#118CDF] mt-20 mb10 py-10 text-center'>
+          <article className='w-10/12 rounded-3xl mx-auto bg-[#118CDF] mt-10 mb-4 pt-10 pb-6 text-center'>
             <ShowMore
               text={'Tener esta información y controles permite'}
               moreText={'• Desarrollar contratos de Service eficientes.'}
@@ -79,7 +79,7 @@ function page() {
               moreText3={'• Optimizar costos en reparaciones.'}
             />
           </article>
-          <article className='w-10/12 rounded-3xl mx-auto bg-[#27B2C4] mt-20 mb10 py-10 text-center'>
+          <article className='w-10/12 rounded-3xl mx-auto bg-[#27B2C4] mt-10 mb-4 pt-10 pb-6 text-center'>
             {/* <h2 className='font-semibold text-white pl-5 py-3 md:pl-8 lg:pl-11 xl:pl-16 text-2xl lg:text-3xl'>Tener esta información y controles permite</h2> */}
             <ShowMore
               text={'¿Qué es?'}

@@ -1,11 +1,10 @@
 import "./globals.scss";
 // import Navbar from "@/components/Navbar";
 import { Libre_Franklin } from "next/font/google";
-
 const font = Libre_Franklin({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "BioTrust",
+  title: "Biotrust",
   description: "",
   icons: {
     icon: ['/favicon.ico?v=4'],

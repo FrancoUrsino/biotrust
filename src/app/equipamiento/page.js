@@ -2,8 +2,6 @@
 import Footer from '@/components/Footer'
 import SubNav from '@/components/SubNav'
 import React from 'react'
-import Image from 'next/image'
-
 import '../globals.scss'
 import Neoslider from '@/components/Slider/Neoslider'
 import Slider from '@/components/Slider/Slider'
@@ -11,14 +9,13 @@ import Cislider from '@/components/Slider/Cislider'
 import Emslider from '@/components/Slider/Emslider'
 import Navbar from '@/components/Navbar'
 
-
 function page() {
   return (
     <>
     <Navbar/>
       <main>
       <section className='title-bg-equip'>
-          <h1 className='shadow-text text-[#f5f5f5] relative top-[200px] md:top-[190px] 2xl:top-64 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>Equipamiento</h1>
+          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-36 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-5xl'>Equipamiento</h1>
         </section>
       <SubNav/>
         <section className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-1 justify-center justify-items-center top-[250px] md:top-[500px] mt-10 lg:top-[300px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">

@@ -6,13 +6,14 @@ import arrow from '../../../public/img/arrow.svg'
 import Navbar from '@/components/Navbar'
 import SubNav from '@/components/SubNav'
 
+
 function page() {
   return (
     <>
     <Navbar/>
     <main className='w-full absolute bg-[#f0f0f5]'>
     <section className='title-bg-certificaciones'>
-          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-48 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-6xl'>certificaciones</h1>
+          <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-36 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-5xl'>certificaciones</h1>
         </section>
       <SubNav/>
       <section>
@@ -46,9 +47,9 @@ function page() {
 
       </section>
       <section className='w-10/12 mx-auto'>
-        <h2 className='text-[#002D4E] font-extrabold text-2xl md:text-3xl lg:text-6xl mb-4'>¿Cómo lo hacemos?</h2>
-        <p className='font-light lg:text-2xl'><span className='font-bold'>Nuestro equipo de certificación visita el establecimiento del cliente.</span>  <br />El técnico especializado realiza el <span>control de seguridad al Equipo Médico</span> en el lugar. <br />Los datos obtenidos luego del control de seguridad de guardan mediante el Software de Gestión en la NUBE</p>
-        <h6 className='mt-10 text-xl md:text-2xl lg:text-4xl text-[#002D4E] font-extrabold'>Otorgamos:</h6>
+        <h2 className='text-[#002D4E] font-extrabold text-2xl md:text-3xl lg:text-4xl xl:text-6xl mb-4'>¿Cómo lo hacemos?</h2>
+        <p className='font-light lg:text-lg xl:text-2xl'><span className='font-bold'>Nuestro equipo de certificación visita el establecimiento del cliente.</span>  <br />El técnico especializado realiza el <span>control de seguridad al Equipo Médico</span> en el lugar. <br />Los datos obtenidos luego del control de seguridad de guardan mediante el Software de Gestión en la NUBE</p>
+        <h6 className='mt-10 text-xl md:text-2xl lg:text-2xl xl:text-4xl text-[#002D4E] font-extrabold'>Otorgamos:</h6>
         <section className="grid md:grid-cols-3 md:grid-rows-1 justify-center gap-2 justify-items-center w-10/12 xl:w-full mx-auto my-10 md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl">
 
           <article className='w-full h-48 lg:h-64 object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#547189] group transition-all ease-in duration-500'>
@@ -65,7 +66,7 @@ function page() {
 
           <article className='w-full h-48 lg:h-64 object-cover flex flex-col items-center justify-center rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-[#27B2C4] group transition-all ease-in duration-500'>
             <div href='/equipamiento' className='flex flex-col justify-center items-center text-center'>
-              <p className='text-white font-semibold lg:text-lg 2xl:text-2xl px-6'>EL CLIENTE PODRÁ CONTROLAR EL ESTADO DEL EQUIPO CON SU USUARIO Y CONTRASEÑA A TRAVÉS DEL SOFTWARE DE GESTIÓN</p>
+              <p className='text-white font-semibold lg:text-base 2xl:text-2xl px-6'>EL CLIENTE PODRÁ CONTROLAR EL ESTADO DEL EQUIPO CON SU USUARIO Y CONTRASEÑA A TRAVÉS DEL SOFTWARE DE GESTIÓN</p>
             </div>
           </article>
 
@@ -73,8 +74,8 @@ function page() {
       </section>
       <section className='grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 w-10/12 mx-auto mt-10 mb-44'>
         <div className=''>
-          <h2 className='text-[#002D4E] font-extrabold text-2xl md:text-3xl lg:text-4xl mt-4 mb-10'>Equipamiento de certificaciones</h2>
-          <ul className='text-base lg:text-2xl'>
+          <h2 className='text-[#002D4E] font-extrabold text-2xl md:text-3xl lg:text-3xl xl:text-4xl mt-4 mb-8'>Equipamiento de certificaciones</h2>
+          <ul className='text-base lg:text-base xl:text-2xl'>
             <li className='py-1 font-light'><span className='font-semibold'>ESA612</span> Electrical Safety Analyzer.</li>
             <li className='py-1 font-light'><span className='font-semibold'>ESA620</span> Electrical Safety Analizer.</li>
             <li className='py-1 font-light'><span className='font-semibold'>Impulse 6000D</span> Desfribilador/trascutaneus Pacemaker Analizer.</li>
@@ -91,14 +92,8 @@ function page() {
         </div>
         <div className="align-middle">
           <div className='flex text-center items-center md:w-10/12 h-full md:justify-end lg:mx-auto  mt-12 lg:mt-16'>
-            <p className="font-light text-xl md:text-2xl xl:text-3xl 2xl:text-4xl text-black tracking-wider border-4 border-[#002D4E] rounded-2xl p-10 w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
+            <p className="font-light text-xl md:text-2xl lg:text-xl xl:text-3xl 2xl:text-4xl text-black tracking-wider border-4 border-[#002D4E] rounded-2xl p-10 w-10/12 mx-auto">TODO NUESTRO EQUIPAMIENTO ESTA CALIBRADO Y POSEE SU RESPECTIVO CERTIFICADO EMITIDO POR LA AUTORIDAD CORRESPONDIENTE.</p>
           </div>
-          {/* <div className='w-full md:w-10/12 lg:mx-auto '>
-            <Link href='/autogestion' className='flex w-full relative rounded-2xl pl-4 py-5 bg-[#002D4E] top-44 lg:top-20'>
-              <Image src={serCom} alt='service computer logo'/>
-              <p className='text-white pl-20 text-2xl lg:text-3xl py-5'>Sistema de autogestión</p>
-            </Link>
-          </div> */}
         </div>
       </section>
       <div className='bg-gradient-to-b from-[#289DAC] to-[#0E3A5D] to-80% text-white'>

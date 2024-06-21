@@ -4,7 +4,6 @@ import Footer from '@/components/Footer'
 import Image from 'next/image';
 import escudo from '../../../public/img/escudo.svg';
 import Navbar from '@/components/Navbar';
-import SubNav from '@/components/SubNav';
 
 function page() {
   return (
@@ -12,7 +11,7 @@ function page() {
       <Navbar />
       <main className='pt-10 bg-[#f5f5f5] overflow-hidden'>
       <section className='title-bg-clientes'>
-        <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-48 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold text-3xl md:text-4xl lg:text-6xl uppercase'>Confían en nosotros</h1>
+        <h1 className='shadow-text text-[#f5f5f5] relative top-[220px] lg:top-36 2xl:top-60 left-4 lg:left-10 mt-28 font-extrabold uppercase text-3xl md:text-4xl lg:text-5xl'>Confían en nosotros</h1>
       </section>
         <section className="text-center bg-[#f5f5f5]">
           <Carousel />

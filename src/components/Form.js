@@ -32,7 +32,6 @@ function Form() {
   const EmailValidation = (email) => {
     return String(email)
       .toLowerCase()
-      // .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
 
   const handleName = (e) => {
@@ -63,10 +62,6 @@ function Form() {
     }
     if (!email) {
       setErrEmail(true);
-    // } else {
-    //   if (!EmailValidation(email)) {
-    //     setErrEmail(true);
-    //   }
     }
     if (!phone) {
       setErrPhone(true);
@@ -94,7 +89,7 @@ function Form() {
   };
 
   return (
-    <section className="w-11/12 xl:w-4/5 mx-auto lg:mt-2">
+    <section className="w-11/12 xl:w-4/5 mx-auto xl:mt-2">
       {successMsg ? (
         <p className="text-center text-xl font-bold  p-20">
           {successMsg}
@@ -107,7 +102,7 @@ function Form() {
           method="POST"
           className="p-2 grid grid-rows-2"
         >
-          <div className="w-full flex flex-col gap-8 justify-center">
+          <div className="w-full flex flex-col gap-4 justify-center">
             <div>
               <label htmlFor="clientName" className="ml-2 text-lg font-bold">Nombre</label>
               <input
@@ -180,10 +175,10 @@ function Form() {
                 ? "border-red-600 focus-visible:border-red-600"
                 : "border-[#27B2C4]  "
                 } w-full bg-slate-100/90 border-2 rounded-2xl px-4 py-2 text-base text-gray-600 outline-none duration-300 resize-none`}
-              rows="8"
+              rows="6"
             ></textarea>
             <div className="flex flex-col mt-6 md:flex-row justify-center text-center align-middle lg:justify-end">
-              <button className="border-2 rounded-2xl border-[#0E3A5D] bg-[#0E3A5D] flex justify-center text-center mt-2 md:mt-0 md:w-full lg:max-w-64 text-xl md:text-2xl lg:text-3xl py-2 md:py-6 transition duration-150 hover:bg-[#0e3a5da3] hover:ease-linear text-white" onClick={handleSend}>ENVIAR</button>
+              <button className="border-2 rounded-2xl border-[#0E3A5D] bg-[#0E3A5D] flex justify-center text-center mt-2 md:mt-0 md:w-full lg:max-w-44 xl:max-w-64 text-xl md:text-2xl lg:text-xl xl:text-3xl py-2 md:py-6 lg:py-2 xl:py-6 transition duration-150 hover:bg-[#0e3a5da3] hover:ease-linear text-white" onClick={handleSend}>ENVIAR</button>
             </div>
           </div>
         </form>

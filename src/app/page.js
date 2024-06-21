@@ -34,10 +34,6 @@ export default function Home() {
         <div className="justify-between px-1 mx-auto lg:w-11/12 md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between w-11/12 py-2 mx-auto md:block">
-              {/* LOGO */}
-              {/* <Link href="/">
-                <Image src={logo} width={200} alt='Logo' />
-              </Link> */}
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
@@ -59,7 +55,7 @@ export default function Home() {
                 }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="text-base md:text-sm md:px-4 lg:text-lg xl:px-10 lg:px-6 2xl:text-xl text-white py-2 px-1 text-center border-b-2 md:border-b-0  hover:bg-700 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+                <li className="text-base md:text-sm md:px-4 lg:text-lg xl:px-6 lg:px-6 text-white py-2 px-1 text-center border-b-2 md:border-b-0  hover:bg-700 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                   <Link href="/quienes-somos" onClick={() => setNavbar(!navbar)}>
                     QUIÉNES SOMOS
                   </Link>
@@ -69,7 +65,7 @@ export default function Home() {
                     CLIENTES
                   </Link>
                 </li>
-                <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-10 lg:px-6 xl:text-xl text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
+                <li className="text-base md:text-sm md:px-6 lg:text-lg xl:px-6 lg:px-6 text-white py-2 px-1 text-center  border-b-2 md:border-b-0 border-sky-500  md:hover:text-white hover:font-bold md:hover:bg-transparent">
                   <Link href="/nuestra-app" onClick={() => setNavbar(!navbar)}>
                     NUESTRA APP
                   </Link>
@@ -96,7 +92,7 @@ export default function Home() {
       </nav>
       <div className="hero-bg">
         <main className="hero w-full mb-56 lg:mb-28">
-          <section className="grid md:grid-cols-3 md:grid-rows-1 relative justify-center justify-items-center top-[250px] md:top-[300px] lg:top-[270px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
+          <section className="grid md:grid-cols-3 md:grid-rows-1 relative justify-center justify-items-center top-[250px] md:top-[300px] lg:top-[200px] xl:top-[270px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
             {/* CERTIFICADOS */}
 
             <article className='w-full h-32 md:h-64 lg:h-[300px] xl:h-[350px] object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4EA1] group transition-all ease-in duration-500'>
@@ -125,9 +121,9 @@ export default function Home() {
 
           </section>
           <div className='flex flex- w-full absolute top-24 lg:top-28 justify-center'>
-          <Image src={logo} width={300} alt='logo' className='lg:w-[400px]' />
+          <Image src={logo} width={300} alt='logo' className='lg:w-[300px] xl:w-[400px]' />
         </div>
-          <h1 className="mx-auto text-lg w-10/12 md:text-3xl md:w-11/12 xl:text-2xl lg:w-full text-center relative top-[280px] md:top-[350px] lg:top-[300px] 2xl:top-[350px] text-[#f1f1f1] uppercase font-bold">LA EXPERENCIA, TECNOLOGIA Y CONOCIMIENTO AL SERVICIO DE LA GESTIÓN DE EQUIPAMIENTO MEDICO</h1>
+          <h1 className="mx-auto text-lg w-10/12 md:text-3xl lg:text-2xl xl:text-4xl md:w-11/12 lg:w-full text-center relative top-[280px] md:top-[350px] lg:top-[240px] xl:top-[300px] 2xl:top-[350px] text-[#f1f1f1] uppercase font-bold">LA EXPERENCIA, TECNOLOGIA Y CONOCIMIENTO AL SERVICIO DE LA GESTIÓN DE EQUIPAMIENTO MEDICO</h1>
         </main>
         <Footer />
       </div>
