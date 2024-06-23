@@ -92,38 +92,38 @@ export default function Home() {
       </nav>
       <div className="hero-bg">
         <main className="hero w-full mb-56 lg:mb-28">
-          <section className="grid md:grid-cols-3 md:grid-rows-1 relative justify-center justify-items-center top-[250px] md:top-[300px] lg:top-[200px] xl:top-[270px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
+          <section className="grid md:grid-cols-3 md:grid-rows-1 relative justify-center justify-items-center top-[250px] md:top-[300px] lg:top-[190px] xl:top-[290px] w-10/12 xl:w-9/12 mx-auto md:rounded-bl-3xl md:rounded-br-3xl md:rounded-tl-3xl md:rounded-tr-3xl md:shadow-2xl md:shadow-black">
             {/* CERTIFICADOS */}
 
-            <article className='w-full h-32 md:h-64 lg:h-[300px] xl:h-[350px] object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4EA1] group transition-all ease-in duration-500'>
+            <article className='w-full h-32 md:h-64 lg:h-[270px] xl:h-[350px] object-cover flex flex-col items-center justify-center rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl  bg-[#002D4EA1] group transition-all ease-in duration-500'>
               <Link href='/certificaciones' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                <p className="py-2 text-sm lg:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">certificaciones</p>
-                <p className='w-5/6 text-center text-white md:text-lg lg:text-normal lg:mt-4 leading-5 group-hover:invisible'>Cumpliendo con las leyes nacionales y disposiciones del <span className='font-semibold'>ANMAT</span> </p>
+                <p className="py-2 text-sm lg:text-2xl xl:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">certificaciones</p>
+                <p className='w-5/6 text-center text-white md:text-lg lg:text-base xl:text-xl lg:mt-4 leading-5 group-hover:invisible'>Cumpliendo con las leyes nacionales y disposiciones del <span className='font-semibold'>ANMAT</span> </p>
               </Link>
             </article>
 
             {/* SERVICIO TECNICO */}
-            <article className='w-full h-32 md:h-64 lg:h-[300px] xl:h-[350px] object-cover flex flex-col items-center justify-center bg-[#118CDF99] group transition-all ease-in duration-500'>
+            <article className='w-full h-32 md:h-64 lg:h-[270px] xl:h-[350px] object-cover flex flex-col items-center justify-center bg-[#118CDF99] group transition-all ease-in duration-500'>
               <Link href='/servicio-tecnico' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                <p className="py-1 mt-0 text-sm lg:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">servico técnico</p>
-                <p className='w-3/4 text-center text-white lg:text-2xl lg:mt-4 lg:translate-y-2 group-hover:invisible'>Mantenimiento preventivo y correctivo</p>
+                <p className="py-1 mt-0 text-sm lg:text-2xl xl:text-3xl text-white text-center uppercase lg:group-hover:text-2xl font-bold">servico técnico</p>
+                <p className='w-3/4 text-center text-white lg:text-base xl:text-xl lg:mt-4 lg:translate-y-2 group-hover:invisible'>Mantenimiento preventivo y correctivo</p>
               </Link>
             </article>
 
             {/* EQUIPAMIENTO */}
 
-            <article className='w-full h-32 md:h-64 lg:h-[300px] xl:h-[350px] object-cover flex flex-col items-center justify-center rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-[#27B2C4A8] group transition-all ease-in duration-500'>
+            <article className='w-full h-32 md:h-64 lg:h-[270px] xl:h-[350px] object-cover flex flex-col items-center justify-center rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-[#27B2C4A8] group transition-all ease-in duration-500'>
               <Link href='/equipamiento' className='flex flex-col justify-center items-center group-hover:translate-y-8 group-hover:scale-125 duration-500'>
-                <p className="py-2 text-sm lg:text-3xl text-white text-center uppercase font-bold -translate-y-2">equipamiento</p>
-                <p className='w-3/4 text-center text-white lg:text-2xl lg:mt-4 -translate-y-2 group-hover:invisible'>Venta y alquiler de equipamiento médico</p>
+                <p className="py-2 text-sm lg:text-2xl xl:text-3xl text-white text-center uppercase font-bold -translate-y-2">equipamiento</p>
+                <p className='w-3/4 text-center text-white lg:text-base xl:text-xl lg:mt-4 -translate-y-2 group-hover:invisible'>Venta y alquiler de equipamiento médico</p>
               </Link>
             </article>
 
           </section>
-          <div className='flex flex- w-full absolute top-24 lg:top-28 justify-center'>
-          <Image src={logo} width={300} alt='logo' className='lg:w-[300px] xl:w-[400px]' />
+          <div className='flex flex- w-full absolute top-24 lg:top-20 xl:top-28 justify-center'>
+          <Image src={logo} width={300} alt='logo' className='lg:w-[270px] xl:w-[400px]' />
         </div>
-          <h1 className="mx-auto text-lg w-10/12 md:text-3xl lg:text-2xl xl:text-4xl md:w-11/12 lg:w-full text-center relative top-[280px] md:top-[350px] lg:top-[240px] xl:top-[300px] 2xl:top-[350px] text-[#f1f1f1] uppercase font-bold">LA EXPERENCIA, TECNOLOGIA Y CONOCIMIENTO AL SERVICIO DE LA GESTIÓN DE EQUIPAMIENTO MEDICO</h1>
+          <h1 className="mx-auto text-lg w-10/12 md:text-2xl lg:text-lg xl:text-4xl md:w-11/12 lg:w-full text-center relative top-[280px] md:top-[350px] lg:top-[210px] xl:top-[310px] 2xl:top-[350px] text-[#f1f1f1] uppercase font-bold">LA EXPERENCIA, TECNOLOGIA Y CONOCIMIENTO AL SERVICIO DE LA GESTIÓN DE EQUIPAMIENTO MEDICO</h1>
         </main>
         <Footer />
       </div>
